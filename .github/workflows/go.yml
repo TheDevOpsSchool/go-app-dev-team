@@ -23,6 +23,10 @@ jobs:
 
     - name: Build
       run: go build -v ./date.go
+      
+    # This is to ruun the executable file that was built
+    - name: Test
+      run: ./date
 
     #- name: Test
     #   run: go test -v ./...
