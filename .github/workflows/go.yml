@@ -5,7 +5,10 @@ name: Go
 
 on:
   push:
-    branches: [ "goody-feat" ]
+    branches: [ "goody-fea" ]
+    tags:        
+      - v2
+      - v1.*
   pull_request:
     branches: [ "main" ]
 
