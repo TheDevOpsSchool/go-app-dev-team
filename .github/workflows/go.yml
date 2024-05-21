@@ -5,7 +5,7 @@ name: Go
 
 on:
   push:
-    branches: [ "goody-fea" ]
+    branches: [ "z" ]
     tags:        
       - v2
       - v1.*
