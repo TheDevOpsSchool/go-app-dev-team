@@ -24,7 +24,10 @@ jobs:
     - name: Build
       run: go build -v ./date.go
 
+    - name: Go module
+      run: go mod init
+
     - name: Test
-      run: go test -v ./date
+      run: go test ./date
     
       
