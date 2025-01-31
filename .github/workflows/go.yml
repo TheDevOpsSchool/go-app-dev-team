@@ -28,6 +28,6 @@ jobs:
     #   run: go mod init
 
     - name: Test
-      run: go test ./date
+      run: go ./date
     
       
